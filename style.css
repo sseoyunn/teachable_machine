@@ -1,0 +1,73 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;700&display=swap');
+
+main {
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Apple SD Gothic Neo',
+    'Inter', 'Spoqa Han Sans', 'Segoe UI', Sans-Serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    color: #222; font-size: 13px; line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.neu{
+    font-family: 'gotham', 'Spoqa Han Sans';
+    color: rgb(28, 28, 28);
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    border: 0px;
+    font-size: 20px;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 600;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  16px 16px 72px #dbdbdb,
+             -16px -16px 72px #ffffff;
+}
+
+#webcam-container {
+    padding: 40px;
+    padding-bottom: 20px;
+}
+
+#label-container{
+    font-size: 20px;
+    font-family: 'gotham','Spoqa Han Sans';
+    font-weight: 100;
+}
+
+#label-text{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'gotham','Spoqa Han Sans';
+    font-weight: 600;
+}
+#answering-text{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'gotham','Spoqa Han Sans';
+    font-weight: 600;
+}
